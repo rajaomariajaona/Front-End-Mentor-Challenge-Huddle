@@ -1,11 +1,11 @@
 @font-face {
     font-family: Poppins;
-    src: url(./font/Poppins-SemiBold.ttf);
+    src: url(../font/Poppins-SemiBold.ttf);
 }
 
 @font-face {
     font-family: OpenSans;
-    src: url(./font/OpenSans-Regular.ttf);
+    src: url(../font/OpenSans-Regular.ttf);
 }
 
 body {

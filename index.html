@@ -9,144 +9,7 @@
     <link href="./css/all.css" rel="stylesheet" />
     <link href="./css/flexboxgrid.min.css" rel="stylesheet" />
     <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
-    <style>
-        @font-face {
-            font-family: Poppins;
-            src: url(./font/Poppins-SemiBold.ttf);
-        }
 
-        @font-face {
-            font-family: OpenSans;
-            src: url(./font/OpenSans-Regular.ttf);
-        }
-
-        body {
-            font-size: 14px;
-            font-family: OpenSans;
-            color: hsl(208, 11%, 55%);
-        }
-
-        h1,
-        h2 {
-            font-family: Poppins;
-            color: hsl(192, 100%, 9%);
-        }
-
-        header {
-            background-image: url(./images/bg-hero-mobile.svg);
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            padding: 50px;
-            background-color: hsl(193, 100%, 96%);
-        }
-
-        .align {
-            text-align: center;
-        }
-
-        .btn {
-            height: 35px;
-            width: 100%;
-            border-color: transparent;
-            border-radius: 50px;
-            box-shadow: 2px 2px 10px 0px rgba(128, 128, 128, 0.5);
-            font-family: Poppins;
-            font-size: smaller;
-        }
-
-        .text-article {
-            margin-left: 0px;
-        }
-
-        #article {
-            margin-top: 40px;
-            margin-bottom: 40px;
-        }
-
-        @media only screen and (min-width: 765px) {
-            header {
-                background-image: url(./images/bg-hero-desktop.svg);
-                background-position: center;
-                background-repeat: no-repeat;
-                background-size: cover;
-                padding: 50px;
-                background-color: hsl(193, 100%, 96%);
-            }
-
-            .align {
-                text-align: left;
-            }
-
-            .btn {
-                height: 40px;
-                font-size: medium;
-            }
-
-            #article {
-                margin-top: 110px;
-                margin-bottom: 110px;
-            }
-
-            .text-article {
-                margin-left: 50px;
-            }
-        }
-
-
-        #mockups {}
-
-        .img-responsive {
-            max-width: 100%;
-            height: auto;
-        }
-
-
-
-        .btn-white {
-            color: hsl(192, 100%, 9%);
-            background-color: white;
-        }
-
-        .btn-pink {
-            color: hsl(193, 100%, 96%);
-            background-color: hsl(322, 100%, 66%);
-        }
-
-        .mb-2 {
-            margin-bottom: 50px;
-        }
-
-        .mt-1 {
-            margin-top: 20px;
-        }
-
-        .mt-2 {
-            margin-top: 50px;
-        }
-
-        .mb-1 {
-            margin-bottom: 20px;
-        }
-
-
-
-        .head-text p {
-            color: hsl(192, 100%, 9%);
-        }
-
-        .head-text {
-            margin-bottom: 50px;
-        }
-
-        article {
-            padding-top: 50px;
-            padding-bottom: 50px;
-            box-shadow: 2px 2px 10px 0px rgba(128, 128, 128, 0.5);
-            border-radius: 15px;
-            min-height: 385px;
-        }
-    </style>
 </head>
 
 <body class="row center-xs">
@@ -221,90 +84,69 @@
         </div>
 
 
-
-
-
         <footer class="box">
-            <div class="row">
-                <div class="col-xs-12">
-                    <div class="ready-container">
-                    <div class="ready">
-                        <h2> Ready To Build Your Community? </h2>
-                        <div class="row center-xs">
-                            <div class="col-xs-9 mt-1">
-                                <button class="btn btn-pink"> Get Started For Free </button>
-                            </div>
+            <div class="row center-xs ready-container ">
+                <div class="col-xs-11 col-md-8 ready">
+                    <h2> Ready To Build Your Community? </h2>
+                    <div class="row center-xs">
+                        <div class="col-xs-9 mt-1">
+                            <button class="btn btn-pink"> Get Started For Free </button>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div class="row start-xs">
+                <div class="col-xs-5 col-md-3">
+                    <img class="img-responsive" alt="logo" src="./images/logo-white.png" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-xs-12 first-column">
+                    <div class="row start-xs">
+                        <div class="col-xs-1 fontawesome-footer">
+                            <span class="fa fa-map-marker-alt"></span>
+                        </div>
+                        <div class="col-xs-10">
+                            <p>
+                                Donec vitae dolor. Sed bibendum. Aliquam erat volutpat. Nunc eleifend leo vitae magna. In id erat non orci commodo lobortis. Proin neque massa, cursus ut, gravida ut, lobortis eget, lacus.</p>
+                        </div>
+                        <div class="col-xs-1 fontawesome-footer">
+                            <span class="fa fa-phone-volume"></span>
+                        </div>
+                        <div class="col-xs-10">
+
+                            <p>
+                                +1-543-123-4567
+                            </p>
+                        </div>
+                        <div class="col-xs-1 fontawesome-footer">
+                            <span class="fa fa-envelope"></span>
+                        </div>
+                        <div class="col-xs-10">
+                            <p>
+                                example@huddle.com
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <img alt="logo" src="./images/logo-white.png" />
-            <div>
-                <div>
-                    <span class="fa fa-map-marker-alt"></span>
-                    <p>
-                        Donec vitae dolor. Sed bibendum. Aliquam erat volutpat. Nunc eleifend leo vitae magna. In id erat non orci commodo lobortis. Proin neque massa, cursus ut, gravida ut, lobortis eget, lacus. Sed diam. Praesent fermentum tempor tellus. Nullam tempus. Mauris ac felis vel velit tristique imperdiet. Donec at pede.
-                    </p>
+                <div class="col-xs-12 col-md-2">
+                    <p> About Us</p>
+                    <p> What We Do </p>
+                    <p> FAQ </p>
                 </div>
-                <div>
-                    <span class="fa fa-phone-volume"></span>
-                    <p>
-                        +1-543-123-4567
-                    </p>
+                <div class="col-xs-12 col-md-2">
+                    <p> Career</p>
+                    <p> Blog </p>
+                    <p> Contact Us </p>
                 </div>
-                <div>
-                    <span class="fa fa-envelope"></span>
-                    <p>
-                        example@huddle.com
-                    </p>
+                <div class="col-xs-12 col-md-3 logo-brands">
+                    <span class="fab fa-facebook"></span>
+                    <span class="fab fa-twitter"></span>
+                    <span class="fab fa-instagram"></span>
                 </div>
-            </div>
-            <div>
-                <p> About Us</p>
-                <p> What We Do </p>
-                <p> FAQ </p>
-            </div>
-            <div>
-                <p> Career</p>
-                <p> Blog </p>
-                <p> Contact Us </p>
-            </div>
-            <div>
-                <span class="fab fa-facebook"></span>
-                <span class="fab fa-twitter"></span>
-                <span class="fab fa-instagram"></span>
-            </div>
         </footer>
     </div>
 
-    <style>
-        footer {
-            background-color: hsl(192, 100%, 9%);
-            color: white;
-            margin-top: 130px;
-        }
-
-        .ready {
-            position: absolute;
-            top: -130px;
-            left: 50%;
-            background-color: white;
-            box-shadow: 2px 2px 10px 0px rgba(128, 128, 128, 0.5);
-            border-radius: 15px;
-            padding: 30px;
-            width: 35%;
-            transform:translateX(-50%) ;
-        }
-
-        .ready-container {
-            position: absolute;
-            width: 83.33333% ;
-            background-color: yellow ;
-            height: 30px;
-            box-sizing: border-box ;
-        }
-    </style>
 </body>
 
 </html>
